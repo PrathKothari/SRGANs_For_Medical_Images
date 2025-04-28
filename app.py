@@ -6,7 +6,7 @@ from generator import Generator
 
 # Load the trained generator
 generator = Generator()
-generator.load_state_dict(torch.load("C:/Users/PRATHAM/Downloads/generator_epoch_6 (2).pth", map_location='cpu'))
+generator.load_state_dict(torch.load("/generator_epoch_6 (2).pth", map_location='cpu'))
 generator.eval()
 
 # Define sizes
